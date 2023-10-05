@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class InsertionSort {
     public static void main(String[] args) {
         int[] arr = new int[]{5, 3, 1, 6, 2};
-
+//take element as key and sort it part by part ex 1-0 , 2-0 , 3-0 ......
         for(int i=1;i<arr.length;i++){
          int curr = arr[i];
          int j=i-1;
